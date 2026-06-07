@@ -8,6 +8,14 @@ This project develops a machine learning model to predict whether a customer is 
 
 ---
 
+## Live Demo
+
+**Streamlit Application:**
+
+https://telecom-customer-churn-prediction-rs8izdnjqqza6ncikrnnyt.streamlit.app/
+
+---
+
 ## Dataset
 
 The project uses the Telco Customer Churn Dataset, which contains customer demographics, account information, and subscribed services.
@@ -276,6 +284,18 @@ Users can enter customer information and receive churn predictions directly thro
 
 ---
 
+## Application Screenshots
+
+### Customer Predicted as Churn
+
+![Churn Prediction](screenshots/churn_prediction.png)
+
+### Customer Predicted as No Churn
+
+![No Churn Prediction](screenshots/no_churn_prediction.png)
+
+---
+
 ## Technologies Used
 
 * Python
@@ -295,6 +315,9 @@ Users can enter customer information and receive churn predictions directly thro
 ```text
 Telecom-Churn-Prediction/
 │
+├── screenshots/
+│   ├── churn_prediction.png
+│   └── no_churn_prediction.png
 ├── .gitignore
 ├── app.py
 ├── churn_model.pkl
